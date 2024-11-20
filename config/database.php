@@ -46,11 +46,12 @@ return [
         'mysql' => [
             'driver' => 'mysql',
             'url' => env('DATABASE_URL'),
-            'host' => env('DB_HOST', '127.0.0.1'),
+            'host' => env('DB_HOST', 'mdocs-laravel-utc-lavc-server.mysql.database.azure.com'),//mdocs-laravel-utc-lavc-server.mysql.database.azure.com
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', ''),
+            'database' => env('DB_DATABASE', 'mdocs-laravel-utc-lavc-database'),//mdocs-laravel-utc-lavc-database
+            'username' => env('DB_USERNAME', 'xqpeazxoul'),//xqpeazxoul
+            'password' => env('DB_PASSWORD', 'Pi101120prni'),//Pi101120prni
+
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
